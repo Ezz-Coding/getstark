@@ -9,14 +9,13 @@
 
 .div_nav_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
 }
 
 .span_1 {
     display: block;
     font-size: xxx-large;
-    margin-left: 13%;
-    
+    margin-left: 13%; 
     font-weight: 900;
 
 }
@@ -31,15 +30,16 @@
     margin-left: 13%;
    
 }
+.nav_2{
+    text-align: center;
+}
 
 .nav_2 a {
     color: rgb(15, 0, 152);
     font-weight: 700;
     text-decoration: underline;
     font-weight: bold;
-    position: relative;
-    left: 60%;
-    top: 10%;
+   
 
 }
 .nav_2 a:hover {
@@ -204,7 +204,7 @@ footer {
 .footer-bottom_2 img {
     width: 200px;
     height: 50px;
-    margin-left: 77%;
+    margin-left: 65%;
     margin-top: 5%;
 }
 
