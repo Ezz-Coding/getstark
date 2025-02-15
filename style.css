@@ -8,6 +8,9 @@ header {
     height: 60px;
     background-color: #F6F6EB;
 }
+.span_3 img{
+    display: none;
+}
 
 .Main_contaner {
     margin-left: 15%;
@@ -305,4 +308,98 @@ header {
 
     border: 2px solid gray;
 }
+.hr_1{
+    display: none;
+}
+@media(max-width : 700px){
+    body{
+        width: 100%;
+    }
+    
+    .logo {
+        position: relative;
+        right: 80px;
 
+    }
+    .function{
+        display: none;
+    }
+    .button button{
+        display: none;
+
+    }
+    .button span button{
+        display: inline-block;
+        position: relative;
+        left: 60%;
+
+    }
+    .span_3 img{
+        display: inline;
+        position: relative;
+        left: 65%;
+        top: 20%;
+    }
+    .Main_Search p{
+        display: none;
+    }
+    .Main_intro{
+        display: grid;
+
+        grid-template-columns: 1fr;
+    }
+    .Category{
+    position: relative;
+    bottom: 140%;
+    right: 3%;
+    word-spacing:120px;
+    
+    }
+    .Category br{
+        display: none;
+    }
+    .change_width{
+        display: none;
+    }
+    .Icon_input{
+        width: 60%;
+    }
+    .liner{
+        position: relative;
+        bottom: 50%;
+        right: 8%;
+    }
+    .A_Header1 a{
+        position: relative;
+        bottom: 30%;
+        left: 80%;
+
+    }
+    .hr_1{
+        display: inline-block;
+        width: 110%;
+        position: relative;
+        top: 10%;
+    }
+    .Main_Product{
+        display: grid;
+        
+        grid-template-columns: 1fr;
+    }
+    .footer-bottom_2 img{
+       display: none;
+    }
+    .Product{
+        position: relative;
+        right: 8%;
+        bottom: 30%;
+        width: 100%;
+        font-size: small;
+        
+    }
+
+    
+
+
+
+}
