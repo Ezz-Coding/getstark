@@ -892,7 +892,8 @@ footer {
 @media (max-width:500px) {
     .main_1 {
         justify-self: center;
-        width: 100%;
+        width: 85%;
+        margin-left: 0%;
         display: grid;
         grid-template-rows:none;
         margin-top: 2%;
@@ -1036,12 +1037,12 @@ footer {
     footer {
         background-color: #0B2545;
         color: white;
-        padding: 40px 20px;
+        padding: 40px 0px;
         margin-top: 200px;
         display: grid;
       height: auto;
         font-weight: 900;
-        font-size: small;
+        font-size: x-small;
     
     }
     
@@ -1049,7 +1050,7 @@ footer {
         justify-self: center;
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        gap: 100px;
+        gap: 10px;
     
     }
     
@@ -1095,11 +1096,11 @@ footer {
     }
     
     .footer-bottom {
-        margin-top: 5%;
+        margin-top: 10%;
         display: grid;
         grid-template-columns: 1fr ;
         color: #fedb63;
-        margin-left: 5%;
+        margin-left: 0%;
         height: 10%;
     }
     
